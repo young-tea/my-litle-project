@@ -1,0 +1,17 @@
+h1 {
+  position: fixed; /* or absolute */
+  top: 50%;
+  left: 50%;
+  color: #fff;
+}
+
+h1:hover {
+  
+  transform: skewX(50deg);
+}
+
+html {
+  background-image: radial-gradient(#5f7272 1px, transparent 1px);
+  background-size: 10px 10px;
+  background-color: #32a3e1;
+}
